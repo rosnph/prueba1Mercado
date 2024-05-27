@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background: #101010;
+  width: 100%;
+}
+
+/* barra superior*/
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #171717;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.hh {
+  font-size: 1, 8rv;
+  font-weight: 800;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.logo img {
+  width: 35%;
+  /*padding-right: 100%;*/
+}
+.navbar a {
+  display: block;
+  padding: 23px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background: #3f3f3f;
+}
+
+.nom {
+  color: #fff;
+  padding-left: 10%;
+  width: 65%;
+}
+/* diseño de la pagina*/
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh !important;
+  background: url(https://i.redd.it/iijv9l2hw6s71.png) no-repeat center;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 200%;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid #9c27b0;
+  color: #fff;
+  text-decoration: none;
+  background: #9c27b0;
+}
+
+.btn:hover {
+  background: none;
+}
+
+.btn-home {
+  display: flex;
+}
+
+.btn-home {
+  margin: 0 10px;
+}
+.btn1 {
+  text-decoration: none;
+  color: transparent;
+}
+
+.content {
+  /*height: 50vh;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /*align-items: stretch;*/
+}
+
+.sau {
+  padding: 30px;
+  background: #1f1d1d;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  background: #101010;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem 5rem rgb(0, 0, 0.5);
+  margin: 2rem;
+}
+
+.box-container .box i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #9c27b0;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.box-container .box h3 {
+  font-size: 20px;
+  color: #9c27b0;
+}
+
+.box-container .box p {
+  font-size: 16px;
+  padding: 0 15px;
+}
+
+.about {
+  background: #171717;
+}
+
+.price {
+  background: url(https://www.madridcapitaldemoda.com/wp-content/uploads/2020/03/banner_turismoexperiencial_catedra-1.jpg)
+    no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  background-size: bottom;
+}
+
+.contac {
+  padding-top: 10px;
+  background: #1b1b1b;
+  padding-top: 0;
+}
+
+/*iconos*/
+.socialIcons {
+  display: inline-flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 1cm;
+  color: #000;
+  opacity: 0.9;
+}
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+/* responsve */
+@media (max-width: 768px) {
+  .title {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+
+  .sau {
+    height: 120vh;
+  }
+
+  .navbar a span {
+    display: none;
+  }
+
+  .logo img {
+    width: 20%;
+  }
+}
+
+/* efecto de img */
+.contenedor0 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.contenedor1 {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.img1 {
+  background-image: url(https://cuernavaca.gob.mx/wp-content/uploads/2022/06/mercado_EmilianoZ_4.png);
+}
+.img2 {
+  background-image: url(https://cuernavaca.gob.mx/wp-content/uploads/2022/06/mercado_EmilianoZ_3.png);
+}
+.img3 {
+  background-image: url(https://cuernavaca.gob.mx/wp-content/uploads/2022/06/mercado_EmilianoZ_2.png);
+}
+.item {
+  width: 30%;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  margin: 0% 10px;
+  transition: 0.3s;
+  position: relative;
+  border-radius: 20px;
+}
+.item:hover {
+  width: 60%;
+}
+.overlay {
+  position: absolute;
+  background: linear-gradient(to bottom, transparent 80%, rgba(0, 0, 0, 0.7));
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.item .titulo {
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 0;
+  transform-origin: left top 0;
+  text-shadow: 2px 2px 3px #000;
+  letter-spacing: 2px;
+  left: 20px;
+}
+.item .nombre {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  transition: 1s;
+  opacity: 0;
+}
+.item .titulo::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 120%;
+  background-color: #371c4b;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
+  line-height: 40px;
+}
+.item:hover .nombre {
+  opacity: 1;
+}
+.item:hover .titulo::after {
+  width: 100%;
+}
+
+/* #193D83 color */
+
+#parr {
+  width: 75%;
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 980px) {
+  .columns .column {
+    margin-bottom: 5px;
+    flex-basis: 40%;
+    &:nth-last-child(2) {
+      margin-right: 0;
+    }
+    &:last-child {
+      flex-basis: 100%;
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .columns .column {
+    flex-basis: 100%;
+    margin: 0 0 5px 0;
+  }
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.botones {
+  padding: 5px;
+  max-width: 90%;
+  width: 95%;
+  margin: 20px auto;
+}
